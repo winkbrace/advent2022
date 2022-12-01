@@ -13,6 +13,10 @@ fn main() {
     let _to_index_3 = &a[..3]; // ..to is always excluding, so: [1, 2, 3]
     let _from_index_1 = &a[1..];
     let _from_index_1_to_3 = &a[1..3];
+
+    // pwd
+    let path = env::current_dir().unwrap();
+    println!("The current directory is {}", path.display());
 }
 
 fn loops() {
