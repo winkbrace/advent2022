@@ -1,2 +1,2 @@
 # advent2022
-Learning Rust solving advent of code 2022 puzzles
+Learning Rust while solving advent of code 2022 puzzles
