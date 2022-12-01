@@ -1,4 +1,3 @@
-//! Solutions to day 01 puzzles
 const HELLO_WORLD: &str = "Hello, world!";
 
 fn main() {
