@@ -19,7 +19,7 @@ fn main() {
     println!("The total score for part two will be: {}", score);
 }
 
-pub fn solve(input: &String, parser: fn(&str) -> (u8, u8)) -> u32 {
+fn solve(input: &String, parser: fn(&str) -> (u8, u8)) -> u32 {
     return input.lines()
         .map(|line| parser(line))
         .map(|(opponent, player)| score(opponent, player))
